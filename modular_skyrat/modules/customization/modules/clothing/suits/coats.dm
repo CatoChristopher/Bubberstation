@@ -156,6 +156,16 @@
 	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/suit.dmi'
 	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION_NO_NEW_ICON
 
+/obj/item/clothing/suit/cold_croptop
+	name = "cold shoulder top"
+	desc = "A black crop top with one exposed shoulder, banned in schools everywhere."
+	icon_state = "cold_croptop"
+	body_parts_covered = CHEST|ARMS
+	cold_protection = CHEST|ARMS
+	icon = 'modular_skyrat/master_files/icons/obj/clothing/suits.dmi'
+	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/suit.dmi'
+	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION_NO_NEW_ICON
+
 /obj/item/clothing/suit/varsity
 	name = "varsity jacket"
 	desc = "A simple varsity jacket with no obvious sources."
